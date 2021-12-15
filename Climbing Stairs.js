@@ -5,7 +5,7 @@ function climbingStairs(cost) {
         cost[i] += Math.min(cost[i + 1], cost[i + 2]);
     }
 
-    return console.log(Math.min(cost[0], cost[1]));
+    console.log(Math.min(cost[0], cost[1]));
 }
 
 climbingStairs([0, 2, 2, 1])
